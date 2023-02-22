@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title> GitHub Finder </title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand"> GitHub Finder </a>
+        </div>
+    </nav>
+    <div class="container search-container">
+        <div class="search card card-body">
+            <h1>Search GitHubUser</h1>
+            <p class="lead">Enter an user to fetch an user profile and repos</p>
+            <input type="text" id="search-user" class="form-control" placeholder="GitHub Username...">
+        </div>
+        <br />
+        <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light"> GitHub Finder</footer>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
